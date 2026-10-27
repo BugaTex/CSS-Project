@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Adebuga Oluwafemi Samuel — Portfolio</title>
+</head>
+<body>
+
+  <!-- 1. NAVBAR (Header & Navigation with Local Links) -->
+  <header>
+    <nav>
+      <h2>My Portfolio</h2>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HOME SECTION -->
+    <section id="home">
+      <h1>Hello, I'm Adebuga Oluwafemi Samuel</h1>
+      <p>Full-Stack Developer & AI Enthusiast</p>
+    </section>
+
+    <hr />
+
+    <!-- 2. ABOUT SECTION (With Audio/Video Media & Lists) -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I am a passionate software developer dedicated to building fast, accessible, 
+        and responsive web applications.
+      </p>
+
+      <h3>My Hobbies & Interests</h3>
+      <ul>
+        <li>Coding & Building AI Apps</li>
+        <li>Football</li>
+        <li>Listening to Tech Podcasts</li>
+      </ul>
+
+      <h3>Featured Video / Audio Intro</h3>
+      <!-- Audio Element Example -->
+      <p>Listen to my voice introduction:</p>
+      <audio controls>
+        <source src="intro-audio.mp3" type="audio/mpeg" />
+        Your browser does not support the audio element.
+      </audio>
+
+      <!-- Video Element Example -->
+      <p>Watch my project pitch:</p>
+      <video width="400" controls poster="video-poster.jpg">
+        <source src="intro-video.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </section>
+
+    <hr />
+
+    <!-- WORK SECTION (Articles & Project List) -->
+    <section id="work">
+      <h2>My Work</h2>
+      <p>Here are a few projects I have built recently:</p>
+
+      <article>
+        <h3>1. E-Commerce Storefront</h3>
+        <p>A full-stack online shop with modern payment integration.</p>
+        <p><strong>Tech Stack:</strong> HTML, CSS, JavaScript, Node.js</p>
+      </article>
+
+      <article>
+        <h3>2. Analytics Dashboard</h3>
+        <p>Real-time data visualization tool for SaaS businesses.</p>
+        <p><strong>Tech Stack:</strong> React, PostgreSQL, Tailwind CSS</p>
+      </article>
+    </section>
+
+    <hr />
+
+    <!-- RESUME SECTION (Structured HTML Table) -->
+    <section id="resume">
+      <h2>Resume</h2>
+      
+      <h3>Work Experience</h3>
+      <table border="1" cellpadding="8" cellspacing="0">
+        <thead>
+          <tr>
+            <th>Role</th>
+            <th>Company / School</th>
+            <th>Year</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Senior Full-Stack Developer</td>
+            <td>NIS</td>
+            <td>2022 – Present</td>
+          </tr>
+          <tr>
+            <td>Frontend Developer</td>
+            <td>PixelForge Studio</td>
+            <td>2019 – 2022</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Education</h3>
+      <table border="1" cellpadding="8" cellspacing="0">
+        <thead>
+          <tr>
+            <th>Degree</th>
+            <th>Institution</th>
+            <th>Year</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>B.Sc. Surveying & Geoinformatics</td>
+            <td>University of Lagos</td>
+            <td>2015 – 2019</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <hr />
+
+    <!-- CONTACT SECTION (HTML Form) -->
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>Feel free to reach out to me using the form below!</p>
+
+      <form action="#" method="POST">
+        <div>
+          <label for="fullname">Full Name:</label><br />
+          <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required />
+        </div>
+        <br />
+
+        <div>
+          <label for="email">Email Address:</label><br />
+          <input type="email" id="email" name="email" placeholder="you@example.com" required />
+        </div>
+        <br />
+
+        <div>
+          <label for="subject">Subject:</label><br />
+          <input type="text" id="subject" name="subject" placeholder="Project Inquiry" required />
+        </div>
+        <br />
+
+        <div>
+          <label for="message">Your Message:</label><br />
+          <textarea id="message" name="message" rows="5" cols="30" placeholder="Type your message here..." required></textarea>
+        </div>
+        <br />
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <hr />
+
+  <!-- 3. PAGE FOOTER -->
+  <footer>
+    <p>&copy; 2026 Adebuga Oluwafemi Samuel. All rights reserved.</p>
+    <p>
+      <a href="https://github.com" target="_blank">GitHub</a> | 
+      <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+    </p>
+  </footer>
+
+</body>
+</html>
