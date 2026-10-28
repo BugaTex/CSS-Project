@@ -1,0 +1,163 @@
+/* Apply Roboto font to the whole page */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/* Style the navbar list container */
+.navbar-menu {
+  list-style-type: none; /* Removes the bullet points */
+  background-color: #1e293b; /* Dark navy background */
+  padding: 15px;
+  margin: 0;
+}
+
+/* Make list items display INLINE in a row */
+.navbar-menu li {
+  display: inline-block; /* Places items side-by-side */
+  margin-right: 20px;    /* Adds space between each link */
+}
+
+/* Style the link text */
+.navbar-menu li a {
+  color: #ffffff;         /* White text color */
+  text-decoration: none;  /* Removes the blue underline */
+  font-weight: 500;
+  font-size: 16px;
+}
+
+/* Add a hover effect when mouse moves over links */
+.navbar-menu li a:hover {
+  color: #f83845; /* Light blue on hover */
+}
+/* ==========================================
+   GLOBAL LAYOUT & SECTIONS
+   ========================================== */
+.main-container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+.hero-section {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #f1f5f9;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.hero-title {
+  color: #1e293b;
+  margin-bottom: 10px;
+}
+
+.hero-subtitle {
+  color: #0284c7;
+  font-weight: 500;
+}
+
+.content-section {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  border: 1px solid #e2e8f0;
+}
+
+.section-title {
+  color: #0f172a;
+  border-bottom: 2px solid #0284c7;
+  padding-bottom: 8px;
+  margin-bottom: 20px;
+}
+
+.sub-title {
+  color: #334155;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* ==========================================
+   PROJECT CARDS
+   ========================================== */
+.project-card {
+  background-color: #f8fafc;
+  padding: 20px;
+  border-left: 4px solid #0284c7;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.card-title {
+  margin-top: 0;
+  color: #0f172a;
+}
+
+/* ==========================================
+   TABLES
+   ========================================== */
+.resume-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.resume-table th, 
+.resume-table td {
+  padding: 12px;
+  border: 1px solid #cbd5e1;
+  text-align: left;
+}
+
+.resume-table th {
+  background-color: #0284c7;
+  color: #ffffff;
+}
+
+/* ==========================================
+   FORMS
+   ========================================== */
+.contact-form {
+  max-width: 600px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.submit-btn {
+  background-color: #0284c7;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submit-btn:hover {
+  background-color: #0369a1;
+}
+
+/* ==========================================
+   MEDIA PLAYER
+   ========================================== */
+.media-player {
+  margin-bottom: 15px;
+  max-width: 100%;
+}
